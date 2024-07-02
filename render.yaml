@@ -1,0 +1,10 @@
+# Exported from Render on 2024-07-02T23:28:05Z
+services:
+- type: web
+  name: glasscake-erp
+  runtime: image
+  image:
+    url: docker.io/frappe/erpnext:latest
+  plan: free
+  region: oregon
+version: "1"
